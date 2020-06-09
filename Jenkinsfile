@@ -10,7 +10,7 @@ pipeline {
 
     stage('validate') {
       steps {
-        sh 'cd bin/'
+        sh 'echo "hi"'
       }
     }
 
